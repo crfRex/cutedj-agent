@@ -1,0 +1,20 @@
+{
+  "version": "Sample 1.0.0",
+  "name": "Shizuku",
+  "model": "shizuku.moc",
+  "textures": [
+    "textures/texture_00.png"
+  ],
+  " motions": {
+    "idle": [
+      { "file": "motions/idle.mtn", "fade_in": 2000, "fade_out": 2000 }
+    ],
+    "tap_body": [
+      { "file": "motions/tap_body.mtn", "fade_in": 0, "fade_out": 0 }
+    ]
+  },
+  "hit_areas": [
+    { "name": "Head", "id": "D_REF.HEAD" },
+    { "name": "Body", "id": "D_REF.BODY" }
+  ]
+}
